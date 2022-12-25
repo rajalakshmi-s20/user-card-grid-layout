@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/user-card-grid-layout/static/css/main.f701487e.css",
+    "main.js": "/user-card-grid-layout/static/js/main.6e3040e7.js",
+    "index.html": "/user-card-grid-layout/index.html",
+    "main.f701487e.css.map": "/user-card-grid-layout/static/css/main.f701487e.css.map",
+    "main.6e3040e7.js.map": "/user-card-grid-layout/static/js/main.6e3040e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f701487e.css",
+    "static/js/main.6e3040e7.js"
+  ]
+}
