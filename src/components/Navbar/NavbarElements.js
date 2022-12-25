@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: #000;
-  height: 60px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   z-index: 10;
@@ -33,7 +33,9 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #256ce1;
+  background: #5d0cff;
+  font-size: 15px;
+  font-weight:bold;
   padding: 10px 22px;
   color: #fff;
   outline: none;
@@ -44,7 +46,7 @@ export const NavBtnLink = styled(Link)`
   margin-left: 24px;
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+    opacity: 0.9;
+    color: #fff;
   }
 `;

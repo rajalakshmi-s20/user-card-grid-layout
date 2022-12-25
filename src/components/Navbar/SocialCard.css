@@ -1,10 +1,11 @@
 .card {
-    margin: 2rem 2rem 2rem 0;
-    padding: 1.5rem;
-    width: 250px;
+    margin: 3rem 3rem 3rem 3rem;
+    padding: 1rem;
+    width: 300px;
     box-shadow: 0 0 28px 4px rgba(0,0,0,0.1);
     transition: transform .3s ease;
     cursor: pointer; 
+    background-color: #fff;
 }
 
 .card:hover {
@@ -15,6 +16,13 @@
     font-weight: 800;
     font-size: 1.5rem;
     text-align: center;
+    padding: 1rem;
+    background: linear-gradient(
+      90deg,
+      rgba(48, 16, 255, 1) 0%,
+      rgba(100, 115, 255, 1) 100%
+    );
+    color: #fff;
 }
 
 .card_image {
@@ -29,10 +37,16 @@
 .card_email {
     font-weight: bold;
     text-align: center;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    color:rgba(48, 16, 255, 1);
+    
 }
 
 .card_id {
     font-weight: bolder;
     text-align: center;
     font-size: 30px;
+    color: darkblue;
 }
